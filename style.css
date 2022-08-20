@@ -1,3 +1,4 @@
+/* Global styles */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
 
 * {
@@ -104,8 +105,7 @@ h4 {
   font-size: 24px;
 }
 
-/* Header */
-
+/* Header section */
 .header {
   height: 530px;
   background: url(img/header.jpg) no-repeat center center / cover;
@@ -129,7 +129,6 @@ h4 {
   letter-spacing: 1px;
 }
 
-/* we type like this to organize the coding style. */
 .header .logo {
   width: 270px;
   margin: 20px 0;
@@ -169,7 +168,7 @@ h4 {
   );
 }
 
-/* sub header */
+/* Sub-header */
 .sub-header {
   display: grid;
   grid-template-columns: 2fr 4fr 2fr;
@@ -193,7 +192,7 @@ h4 {
   text-align: center;
 }
 
-/* Categories */
+/* Categories section */
 .categories {
   display: flex;
   flex-direction: column;
@@ -238,22 +237,22 @@ h4 {
 }
 
 .categories .cover-1 {
-  background: url("./img/cover-1.jpg") no-repeat center center / cover;
+  background: url(./img/cover-1.jpg) no-repeat center center / cover;
 }
 
 .categories .cover-2 {
-  background: url("./img/cover-2.jpg") no-repeat center center / cover;
+  background: url(./img/cover-2.jpg) no-repeat center center / cover;
 }
 
 .categories .cover-3 {
-  background: url("./img/cover-3.jpg") no-repeat center center / cover;
+  background: url(./img/cover-3.jpg) no-repeat center center / cover;
 }
 
 .categories .cover-4 {
-  background: url("./img/cover-4.jpg") no-repeat center center / cover;
+  background: url(./img/cover-4.jpg) no-repeat center center / cover;
 }
 
-/* Live  */
+/* Live section */
 .live {
   background: #151516;
   padding: 40px;
@@ -277,9 +276,9 @@ h4 {
   text-decoration: underline;
 }
 
-/* Live Sports */
+/* Live Sports section */
 .live-sports {
-  background: url("img/live-sports.jpg") no-repeat center center / cover;
+  background: url(img/live-sports.jpg) no-repeat center center / cover;
   height: 800px;
   position: relative;
 }
@@ -312,7 +311,7 @@ h4 {
   width: 40px;
 }
 
-/* footer */
+/* Footer */
 .footer {
   background: #ebedf2;
   color: #333;
@@ -352,25 +351,16 @@ h4 {
   margin-right: 25px;
 }
 
-/* Form  */
-.form-control {
-  margin: 20px 0;
+.social-icons {
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-.form-control label {
-  display: block;
-  text-transform: uppercase;
+.copyright-text {
+  text-align: center;
 }
 
-.form-control input {
-  width: 100%;
-  border: 2px #ccc solid;
-  border-radius: 5px;
-  height: 50px;
-  padding: 5px;
-}
-
-/* Media Queries */
+/* Responsive */
 @media (max-width: 1100px) {
   .categories .covers {
     grid-template-columns: 1fr 1fr;
