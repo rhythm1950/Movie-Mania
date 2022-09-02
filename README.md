@@ -1,16 +1,24 @@
-# Hulu-Clone
-Hulu is an American subscription video on demand service. I tried to make Hulu webpage clone.
+# Movie-Mania
+This is a website of a movie streaming website. I have developed it using HTML, CSS.
 
-### Important steps in the project phase.
-+ Header and Sub Headers Section
-+ Media Querries
-+ Categories & Covers Section
-+ Live TV Section
-+ Live Sports Section
-+ Footer
-+ Modal(Login Box) 
+### Deployment
+| Environment | Link |
+|-------------|------|
+| GitHub Pages | [GitHub Pages](https://rhythm1950.github.io/Movie-Mania/) |
+
+### Technology Stack
+#### Languages:
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+#### IDE Used:
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+#### Version Control:
+- ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
-#### Demo Link
+### Website Preview:
+<img src="./img/Movie-Mania.png" alt="Movie Mania">
 
-Hulu Clone Demo --> https://hulu-clone-site.netlify.app
